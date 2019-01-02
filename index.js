@@ -1,12 +1,13 @@
+"use strict";
 
-export const SERVER_METHODS = {
+ var SERVER_METHODS = {
     GET: 0,
     POST: 1,
     PATCH: 2,
     DELETE: 3
   };
   
-  export const getMethodName = (method)=> {
+ function getMethodName (method) {
     switch (method) {
       case SERVER_METHODS.GET:
         return 'GET';
@@ -20,4 +21,6 @@ export const SERVER_METHODS = {
         return 'UNKNOWN';
     }
   };
-  
+
+
+module.exports = { getMethodName, SERVER_METHODS }; 
