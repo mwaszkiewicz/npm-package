@@ -1,0 +1,24 @@
+{
+  "name": "rest-package",
+  "version": "0.0.1",
+  "description": "REST helper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mwaszkiewicz/npm-package.git"
+  },
+  "keywords": [
+    "npm",
+    "package",
+    "rest"
+  ],
+  "author": "Codetain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mwaszkiewicz/npm-package/issues"
+  },
+  "homepage": "https://github.com/mwaszkiewicz/npm-package#readme"
+}
