@@ -1,0 +1,10 @@
+.idea/
+node_modules/
+dist/
+/lib
+logs/
+package-lock.json
+yarn-error.log
+yarn.lock
+.vscode
+/nbproject/*
